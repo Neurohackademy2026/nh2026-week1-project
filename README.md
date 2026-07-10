@@ -54,13 +54,13 @@ be found in [this RBC publication](https://doi.org/10.1101/2025.02.24.639850).
 ### Can't we just get the `p_factor` from the dataset?
 
 We have provided two TSV files on the NeuroHackademy JupyterHub:
-* `/home/jovyan/shared/RBC/train_data.tsv`
-* `/home/jovyan/shared/RBC/test_data.tsv`
+* `/home/jovyan/shared/data/RBC/train_participants.tsv`
+* `/home/jovyan/shared/data/RBC/test_participants.tsv`
 
-The first of these files, `train_data.tsv` contains a subset of the PNC
+The first of these files, `train_participants.tsv` contains a subset of the PNC
 participants and various meta-data (including the `p_factor`) for each. The
-`test_data.tsv` file contains the left-out test subjects, and all of the
-`p_factor` cells in this data table have been set to `NaN`. Although it is
+`test_participants.tsv` file contains the left-out test subjects, and all of
+the `p_factor` cells in this data table have been set to `NaN`. Although it is
 possible to find and extract the true `p_factor` values for these test
 subjects, we encourage you not to do so, or at least not to do so until after
 you have generated predictions. (We will provide the `p_factor` data to you
